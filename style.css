@@ -1,0 +1,25 @@
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 50px;
+    background-color: #00646a;
+    color: white;
+    text-align: center;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    font-family: 'Source Sans Pro';
+    text-align: center;
+  }
+
+footer > div > div > div > p{
+    font-size: 14px;
+}
+
+footer > div > div > div > h2{
+    font-size: 28px;
+    padding-bottom: 0px;
+}   
