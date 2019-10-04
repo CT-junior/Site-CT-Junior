@@ -1,3 +1,8 @@
+:root {
+    --laranjaCT: #f89834;
+    --azulCT: #00646a;
+}
+
 footer {
     position: relative;
     left: 0;
@@ -22,4 +27,18 @@ footer > div > div > div > p{
 footer > div > div > div > h2{
     font-size: 28px;
     padding-bottom: 0px;
-}   
+}
+p a{
+    color: white;
+    text-decoration: none;
+}
+p a:hover{
+    color: white;
+    text-decoration: none;
+}
+.fa-circle {
+    color: var(--laranjaCT);
+}
+.fa-phone-alt{
+    color:white;
+}
