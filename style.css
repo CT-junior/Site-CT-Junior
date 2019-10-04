@@ -6,7 +6,7 @@
 footer {
     position: relative;
     left: 0;
-    bottom: 0;
+    bottom: 0px;
     width: 100%;
     padding: 50px;
     background-color: #00646a;
@@ -26,7 +26,7 @@ footer > div > div > div > p{
 
 footer > div > div > div > h2{
     font-size: 28px;
-    padding-bottom: 0px;
+    padding-bottom: 5px;
 }
 p a{
     color: white;
@@ -39,6 +39,22 @@ p a:hover{
 .fa-circle {
     color: var(--laranjaCT);
 }
-.fa-phone-alt{
-    color:white;
+p span i {
+    color: black;
+}
+div p{
+    text-align: left;
+}
+#fb{
+    color: #3b5998;
+}
+#in{
+    color: #0e76a8;
+}
+#insta{
+    color: #dd2a7b;
+}
+#middle-text{
+    text-align: center;
+    padding-top: 35px;
 }
