@@ -5,7 +5,8 @@
 
 h1 {
     text-transform: uppercase;
-    font-size: 120px;
+    font-size: 100px;
+    text-shadow: 
 }
 
 
@@ -18,8 +19,44 @@ h1 {
     background-position: center center;
 }
 
+.services {
+    padding: 150px 10px;
+}
+
+.section-heading {
+    text-transform: uppercase;
+    text-align: center;
+    color: #f79733;
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    padding: 0px 0px 100px 0px;
+}
+
+.websites {
+    background-color: #00646A;
+    height: 200px;
+}
+.sistemas-web {
+    background-color: #00617A;
+    height: 200px;
+}
+.prot-app {
+    background-color: #005177;
+    height: 200px;
+}
+.eletronica {
+    background-color: #06384f;
+    height: 200px;
+}
+
 @media (max-width: 768px) {
     h1 {
         font-size: 70px;
+    }
+    .services {
+        padding: 50px 10px;
+    }
+    .section-heading {
+        font-size: 60px;
     }
 }
