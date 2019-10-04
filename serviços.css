@@ -2,3 +2,24 @@
     margin: 0;
     padding: 0;
 }
+
+h1 {
+    text-transform: uppercase;
+    font-size: 120px;
+}
+
+
+.background-tecnologia {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(http://ctjunior.com.br/ct/wp-content/uploads/2019/07/backgroud_tecnologia.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 70px;
+    }
+}
