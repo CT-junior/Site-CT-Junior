@@ -1,0 +1,60 @@
+:root {
+    --laranjaCT: #f89834;
+    --azulCT: #00646a;
+}
+
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    padding: 50px;
+    background-color: #00646a;
+    color: white;
+    text-align: center;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    font-family: 'Source Sans Pro';
+    text-align: center;
+  }
+
+footer > div > div > div > p{
+    font-size: 14px;
+}
+
+footer > div > div > div > h2{
+    font-size: 28px;
+    padding-bottom: 5px;
+}
+p a{
+    color: white;
+    text-decoration: none;
+}
+p a:hover{
+    color: white;
+    text-decoration: none;
+}
+.fa-circle {
+    color: var(--laranjaCT);
+}
+p span i {
+    color: black;
+}
+div p{
+    text-align: left;
+}
+#fb{
+    color: #3b5998;
+}
+#in{
+    color: #0e76a8;
+}
+#insta{
+    color: #dd2a7b;
+}
+#middle-text{
+    text-align: center;
+    padding-top: 35px;
+}
