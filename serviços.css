@@ -9,11 +9,16 @@ h1 {
     text-shadow: 
 }
 
+h3, i {
+    color: #fff;
+    font-size: 2rem;
+}
+
 
 .background-tecnologia {
     height: 100vh;
     width: 100vw;
-    background-image: url(http://ctjunior.com.br/ct/wp-content/uploads/2019/07/backgroud_tecnologia.png);
+    background-image: url("http://ctjunior.com.br/ct/wp-content/uploads/2019/07/backgroud_tecnologia.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -32,21 +37,101 @@ h1 {
     padding: 0px 0px 100px 0px;
 }
 
-.websites {
+/* .websites {
     background-color: #00646A;
+    height: 200px;
+}
+.websites:hover {
+    background-color: rgb(50, 78, 80);
+    cursor: pointer;
     height: 200px;
 }
 .sistemas-web {
     background-color: #00617A;
     height: 200px;
 }
+.sistemas-web:hover {
+    background-color: rgb(50, 78, 80);
+    cursor: pointer;
+    height: 200px;
+}
 .prot-app {
     background-color: #005177;
+    height: 200px;
+}
+.prot-app:hover {
+    background-color: rgb(50, 78, 80);
+    cursor: pointer;
     height: 200px;
 }
 .eletronica {
     background-color: #06384f;
     height: 200px;
+}
+.eletronica:hover {
+    background-color: rgb(50, 78, 80);
+    cursor: pointer;
+    height: 200px;
+} */
+
+#blurb-tabs .tab-title {
+	width: 25%;
+  height: 250px;
+  background-color: #245;
+}
+
+#blurb-tabs .tabl-title .websites {
+    background-color: #255;
+}
+#blurb-tabs .et_pb_column {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+#blurb-tabs .tab-title:hover {
+  cursor: pointer;
+  background: #222;
+
+}
+
+/* Responsividade*/
+
+/* Tab Titles Mobile Styles */
+@media (max-width: 767px ) {
+	#blurb-tabs .tab-title {
+		width:50%;
+	}
+	#blurb-tabs .tab-title .et_pb_main_blurb_image {
+		margin-bottom:10px; /* Reduce icon bottom margin */
+	}
+}
+
+@media (max-width: 479px ) {
+	#blurb-tabs .tab-title {
+		width:100%;
+    height:70px;
+	}
+	#blurb-tabs .tab-title .et_pb_blurb_content { /* This moves icon to the right */
+		display:flex;
+		align-items:center;
+		justify-content:flex-start;
+	}
+	#blurb-tabs .tab-title .et_pb_main_blurb_image { /* Fix icon margins on mobile */
+		margin-bottom:0;
+		margin-right:30px;
+	}
+}
+/* Hide the tabs content/sections */
+.tab-content {
+display:none;
+} 
+.tab-open {	
+	display:block;
+} 
+
+#blurb-tabs .tab-title.active-tab {
+  background: #B2B2B2;
 }
 
 @media (max-width: 768px) {
