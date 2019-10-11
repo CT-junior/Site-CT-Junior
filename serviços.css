@@ -77,11 +77,20 @@ h3, i {
 #blurb-tabs .tab-title {
 	width: 25%;
   height: 250px;
-  background-color: #245;
+  
 }
 
-#blurb-tabs .tabl-title .websites {
-    background-color: #255;
+#blurb-tabs .websites {
+    background-color: #00646A;
+}
+#blurb-tabs .sistemas-web {
+    background-color: #00617A;
+}
+#blurb-tabs .prot-app {
+    background-color: #005177;
+}
+#blurb-tabs .eletronica {
+    background-color: #03415e;
 }
 #blurb-tabs .et_pb_column {
 	display: flex;
@@ -124,7 +133,7 @@ h3, i {
 }
 /* Hide the tabs content/sections */
 .tab-content {
-display:none;
+/* display:none; */
 } 
 .tab-open {	
 	display:block;
